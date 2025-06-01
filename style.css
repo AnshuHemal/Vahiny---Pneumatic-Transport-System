@@ -4445,8 +4445,9 @@ strong {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   justify-content: space-between;
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
 }
+
 
 .rt-partners-logo-wrap {
   border: 1px solid #000;
@@ -7687,7 +7688,7 @@ strong {
   letter-spacing: -.35px;
   text-transform: capitalize;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, #5e36ef, #f25644);
+  background-image: linear-gradient(90deg, #d36d09, #f25644);
   -webkit-background-clip: text;
   background-clip: text;
   padding-right: 10px;
@@ -8263,7 +8264,7 @@ strong {
   letter-spacing: -.35px;
   text-transform: capitalize;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, #5e36ef, #f25644);
+  background-image: linear-gradient(90deg, #d36d09, #f25644);
   -webkit-background-clip: text;
   background-clip: text;
   padding-left: 10px;
