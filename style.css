@@ -6281,7 +6281,6 @@ strong {
 .rt-our-business-section {
   background-color: #f9f8ff;
   background-image: radial-gradient(circle at 0%, #fda29859, #fff0 25%);
-  padding-bottom: 120px;
 }
 
 .rt-our-business-item-wrap {
@@ -6619,9 +6618,10 @@ strong {
 }
 
 .rt-about-teamsection-inner {
-  background-color: #fff;
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 40px;
+  border-radius: 0 0 50px 50px;
+  border: 1px solid #777;
 }
 
 .rt-about-teamsection-inner.rt-radius-tifty {
@@ -15285,7 +15285,7 @@ strong {
   }
 
   .rt-about-us-section.rt-position-relative.rt-overflow-hidden {
-    padding-bottom: 270px;
+    padding-bottom: 130px;
   }
 
   .rt-service-heading-wrapper {
