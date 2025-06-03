@@ -92,7 +92,7 @@
       name="msapplication-TileImage"
     />
   </head>
-  <body style="overflow-x: hidden">
+  <body style="overflow-x: hidden;">
     <div
       data-animation="default"
       class="navbar w-nav"
@@ -221,7 +221,10 @@
             </div>
           </div>
 
-          <section class="clients-section" style="margin-top: 00px">
+          <section
+            class="clients-section"
+            style="margin-top: 00px"
+          >
             <div class="clients-container">
               <div class="clients-logos">
                 <!-- Duplicate this set of logos for infinite scroll -->
@@ -265,47 +268,16 @@
             </div>
           </section>
 
-          <div
-            id="customModalBackdrop"
-            style="
-              display: none;
-              position: fixed;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background: rgba(0, 0, 0, 0.5);
-              z-index: 9998;
-            "
-          ></div>
-
-          <div
-            id="customModal"
-            style="
-              display: none;
-              position: fixed;
-              top: 10%;
-              left: 50%;
-              transform: translateX(-50%);
-              width: 80%;
-              max-width: 600px;
-              background: #fff;
-              padding: 20px;
-              border-radius: 10px;
-              z-index: 9999;
-            "
-          >
-            <span
-              id="customModalClose"
-              style="
-                position: absolute;
-                top: 10px;
-                right: 20px;
-                cursor: pointer;
-              "
-              >&times;</span
-            >
-            <div id="project-details"></div>
+          <!-- Modal -->
+          <div class="custom-modal-backdrop" id="customModalBackdrop"></div>
+          <div class="custom-modal" id="customModal">
+            <div class="custom-modal-header">
+              <h5 class="custom-modal-title">Project Details</h5>
+              <button class="custom-modal-close" id="customModalClose">
+                &times;
+              </button>
+            </div>
+            <div class="custom-modal-body" id="project-details"></div>
           </div>
 
           <div class="w-layout-vflex rt-pricing-item-main-wrapper">
@@ -966,8 +938,16 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
       const data = [
-        { lat: 19.0, lng: 72.55, filePath: "./clients/sample.html" },
-        { lat: 18.0, lng: 72.55, filePath: "./pro/app.html" },
+        {
+          lat: 19.0,
+          lng: 72.55,
+          filePath: "./clients/sample.html",
+        },
+        {
+          lat: 18.0,
+          lng: 72.55,
+          filePath: "./pro/app.html",
+        },
       ];
 
       const map = L.map("map").setView([22.3072, 73.1812], 6);
@@ -988,17 +968,13 @@
       const closeModalBtn = document.getElementById("customModalClose");
 
       function openModal() {
-        backdrop.style.display = "block";
-        modal.style.display = "block";
+        backdrop.classList.add("show");
+        modal.classList.add("show");
       }
 
       function closeModal() {
-        backdrop.style.display = "none";
-        modal.style.display = "none";
-        document.getElementById("project-details").innerHTML = ""; // Optional
-        setTimeout(() => {
-          map.invalidateSize(); 
-        }, 300); 
+        backdrop.classList.remove("show");
+        modal.classList.remove("show");
       }
 
       closeModalBtn.addEventListener("click", closeModal);
@@ -1010,6 +986,7 @@
         }).addTo(map);
 
         marker.on("click", () => {
+          // Load HTML file content and show it in the modal
           fetch(location.filePath)
             .then((response) => response.text())
             .then((html) => {
