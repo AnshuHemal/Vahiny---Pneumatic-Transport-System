@@ -3715,7 +3715,7 @@ strong {
 
 .rt-about-section-home-v1 {
   background-color: #f9f8ff;
-  padding-bottom: 220px;
+  padding-bottom: 100px;
 }
 
 .rt-about-heading {
@@ -4418,7 +4418,6 @@ strong {
 
 .rt-we-offering-section-v1 {
   background-color: #f9f8ff;
-  padding-bottom: 140px;
 }
 
 .rt-review-text-wrap {
@@ -4674,7 +4673,6 @@ strong {
   background-color: #fff;
   border-radius: 50px;
   padding-top: 127px;
-  padding-bottom: 140px;
   box-shadow: 0 12px 46px #eae3f8;
 }
 
@@ -5392,8 +5390,7 @@ strong {
 .rt-our-strategy-section {
   background-color: #f9f8ff;
   background-image: radial-gradient(circle at 100% 78%, #a1f19133, #fff0 16%);
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 100px;
   overflow: hidden;
 }
 
@@ -5755,7 +5752,7 @@ strong {
 
 .rt-our-unique-feature-section {
   background-color: #f9f8ff;
-  padding-bottom: 130px;
+  padding-bottom: 60px;
 }
 
 .rt-our-feature-item {
@@ -5792,7 +5789,7 @@ strong {
 .rt-unique-feature-block {
   background-color: #fff;
   border-radius: 50px;
-  padding: 125px 60px 140px;
+  padding: 25px 60px 0px;
   box-shadow: 0 -15px 124px #eae3f8;
 }
 
@@ -5897,7 +5894,6 @@ strong {
 
 .rt-our-unique-service-home-v3 {
   background-color: var(--color--lavender-mist);
-  padding-bottom: 137px;
 }
 
 .rt-marquuee-section {
@@ -6260,7 +6256,6 @@ strong {
     radial-gradient(circle at 100% 25%, #fea7c299, #fff0 30%),
     radial-gradient(circle at 25% 20%, #b15bff66, #fff0 25%);
   padding-top: 160px;
-  padding-bottom: 124px;
 }
 
 .rt-business-item.rt-position-relative.rt-align-xy-center {
@@ -6618,10 +6613,8 @@ strong {
 }
 
 .rt-about-teamsection-inner {
-  padding-top: 140px;
   padding-bottom: 40px;
   border-radius: 0 0 50px 50px;
-  border: 1px solid #777;
 }
 
 .rt-about-teamsection-inner.rt-radius-tifty {
@@ -7006,7 +6999,7 @@ strong {
 
 .rt-our-features-content-block {
   background-color: #fff;
-  padding: 133px 60px 140px;
+  padding: 100px 60px 60px;
   box-shadow: 0 12px 46px #eae3f8;
 }
 
@@ -7047,7 +7040,6 @@ strong {
 
 .rt-our-service-section {
   background-color: #f9f8ff;
-  padding-bottom: 100px;
 }
 
 .rt-list-main-wrap {
@@ -7278,7 +7270,7 @@ strong {
 }
 
 .rt-pricing-item {
-  padding: 25px 25px 60px;
+  padding: 25px 25px;
   box-shadow: 0 5px 44.3px #eae3f899;
 }
 
@@ -8547,7 +8539,7 @@ strong {
 
 .rt-contact-one-form-section {
   padding-top: 80px;
-  padding-bottom: 140px;
+  padding-bottom: 40px;
 }
 
 .rt-form-text-area {
@@ -9699,7 +9691,7 @@ strong {
   background-image: radial-gradient(circle at 50% 30%, #fffcb466, #fff0 45%),
     radial-gradient(circle at 80% 30%, #b15bff40, #fff0 35%),
     radial-gradient(circle at 25% 40%, #fea7c2b3, #fff0 40%);
-  padding-bottom: 140px;
+  padding-bottom: 30px;
 }
 
 .rt-pricing-toggle-button {
@@ -13727,7 +13719,6 @@ strong {
   background-color: #f9f8ff;
   background-image: radial-gradient(circle at 80% 100%, #df87ed4d, #fff0 30%),
     radial-gradient(circle at 100% 100%, #fea28c4d, #c58f8f00 30%);
-  padding-top: 140px;
   position: sticky;
   bottom: 0;
 }
@@ -15492,7 +15483,7 @@ strong {
   }
 
   .rt-footer-v1 {
-    padding-top: 130px;
+    padding-top: 60px;
   }
 
   .rt-position-arrow.rt-position-absolute {
@@ -15999,7 +15990,7 @@ strong {
   }
 
   .rt-about-section-home-v1 {
-    padding-bottom: 303px;
+    padding-bottom: 153px;
   }
 
   .rt-about-bottom-big-text {
@@ -23578,7 +23569,7 @@ strong {
 .clients-section {
   overflow: hidden;
   background: #f9f9f9;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .clients-container {
