@@ -3658,8 +3658,8 @@ strong {
 
 .rt-big-container {
   max-width: 1750px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  /* padding-left: 15px; */
+  padding-right: 15px;
 }
 
 .rt-home-one-banner-content.rt-position-relative {
