@@ -6713,7 +6713,7 @@ strong {
   background-color: #fff;
   width: 100%;
   max-width: 410px;
-  padding: 35px 20px;
+  padding: 25px 0px;
 }
 
 .rt-round-icon-two {
@@ -17461,7 +17461,7 @@ strong {
 
   .rt-big-blue-box.rt-color-overley,
   .rt-big-blue-box.rt-bg-white {
-    padding: 63px 20px 0px;
+    padding: 123px 20px 0px;
   }
 
   .rt-service-content-wrapper.rt-position-relative,
