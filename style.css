@@ -6674,6 +6674,7 @@ strong {
 }
 
 .rt-service-description-wrapper {
+  height: 200px;
   max-width: 336px;
   padding-bottom: 25px;
 }
@@ -17460,7 +17461,7 @@ strong {
 
   .rt-big-blue-box.rt-color-overley,
   .rt-big-blue-box.rt-bg-white {
-    padding: 63px 20px 70px;
+    padding: 63px 20px 0px;
   }
 
   .rt-service-content-wrapper.rt-position-relative,
