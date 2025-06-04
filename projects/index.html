@@ -1147,11 +1147,11 @@
       closeModalBtn.addEventListener("click", closeModal);
       backdrop.addEventListener("click", closeModal);
 
-      fetch("./clients/index.json")
+      fetch("https://vahiny-recreated.vercel.app/projects/clients/index.json")
         .then((res) => res.json())
         .then((files) => {
           files.forEach((file) => {
-            const filePath = `./clients/${file}`;
+            const filePath = `https://vahiny-recreated.vercel.app/projects/clients/${file}`;
             fetch(filePath)
               .then((res) => res.text())
               .then((html) => {

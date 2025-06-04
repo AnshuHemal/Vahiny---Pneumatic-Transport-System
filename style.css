@@ -5181,7 +5181,7 @@ strong {
 .rt-big-blue-box {
   background-color: #070f6b;
   border-radius: 50px;
-  padding: 133px 60px 100px;
+  padding: 133px 60px 20px;
 }
 
 .rt-big-blue-box.rt-color-overley {
@@ -15280,12 +15280,12 @@ strong {
   }
 
   .rt-service-heading-wrapper {
-    padding-bottom: 88px;
+    /* padding-bottom: 88px; */
   }
 
   .rt-big-blue-box {
     padding-top: 120px;
-    padding-bottom: 140px;
+    /* padding-bottom: 140px; */
   }
 
   .rt-our-unique-service-section {
