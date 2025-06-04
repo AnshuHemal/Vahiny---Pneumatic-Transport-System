@@ -6252,9 +6252,9 @@ strong {
 
 .rt-about-hero-section {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle at 50% 20%, #fffcb4b3, #fff0 30%),
+  /* background-image: radial-gradient(circle at 50% 20%, #fffcb4b3, #fff0 30%),
     radial-gradient(circle at 100% 25%, #fea7c299, #fff0 30%),
-    radial-gradient(circle at 25% 20%, #b15bff66, #fff0 25%);
+    radial-gradient(circle at 25% 20%, #b15bff66, #fff0 25%); */
   padding-top: 160px;
 }
 
@@ -6275,7 +6275,7 @@ strong {
 
 .rt-our-business-section {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle at 0%, #fda29859, #fff0 25%);
+  /* background-image: radial-gradient(circle at 0%, #fda29859, #fff0 25%); */
 }
 
 .rt-our-business-item-wrap {
@@ -8436,9 +8436,9 @@ strong {
 }
 
 .rt-contact-v1-hero-section {
-  background-image: radial-gradient(circle at 50% 40%, #fffcb4a6, #fff0 41%),
+  /* background-image: radial-gradient(circle at 50% 40%, #fffcb4a6, #fff0 41%),
     radial-gradient(circle at 95% 40%, #b15bff66, #fff0 48%),
-    radial-gradient(circle at 5% 35%, #fea7c299, #fff0 35%);
+    radial-gradient(circle at 5% 35%, #fea7c299, #fff0 35%); */
   padding-top: 180px;
 }
 
@@ -9372,9 +9372,9 @@ strong {
 
 .rt-team-baanner {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle at 50% 35%, #fffcb499, #fff0 35%),
+  /* background-image: radial-gradient(circle at 50% 35%, #fffcb499, #fff0 35%),
     radial-gradient(circle at 90% 35%, #b15bff99, #fff0 30%),
-    radial-gradient(circle at 10% 35%, #fea7c299, #fff0 29%);
+    radial-gradient(circle at 10% 35%, #fea7c299, #fff0 29%); */
   padding-top: 160px;
   padding-left: 15px;
   padding-right: 15px;
@@ -9688,9 +9688,9 @@ strong {
 
 .rt-pricing-v1-hero-section {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle at 50% 30%, #fffcb466, #fff0 45%),
+  /* background-image: radial-gradient(circle at 50% 30%, #fffcb466, #fff0 45%),
     radial-gradient(circle at 80% 30%, #b15bff40, #fff0 35%),
-    radial-gradient(circle at 25% 40%, #fea7c2b3, #fff0 40%);
+    radial-gradient(circle at 25% 40%, #fea7c2b3, #fff0 40%); */
   padding-bottom: 30px;
 }
 
