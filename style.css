@@ -3586,9 +3586,9 @@ strong {
 
 .rt-hero-section-home-v1 {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle, #fffcb4bf, #fffeef29 53%, #fff0),
+  /* background-image: radial-gradient(circle, #fffcb4bf, #fffeef29 53%, #fff0),
     radial-gradient(circle at 80% 35%, #b15bff66, #fff0 25%),
-    radial-gradient(circle at 20% 35%, #fea7c2cc, #fff0 30%);
+    radial-gradient(circle at 20% 35%, #fea7c2cc, #fff0 30%); */
   background-position: 0 0, 0 0, 0 0;
   background-size: auto, auto, auto;
   padding-top: 180px;
@@ -13717,8 +13717,8 @@ strong {
 
 .rt-footer-v1 {
   background-color: #f9f8ff;
-  background-image: radial-gradient(circle at 80% 100%, #df87ed4d, #fff0 30%),
-    radial-gradient(circle at 100% 100%, #fea28c4d, #c58f8f00 30%);
+  /* background-image: radial-gradient(circle at 80% 100%, #df87ed4d, #fff0 30%),
+    radial-gradient(circle at 100% 100%, #fea28c4d, #c58f8f00 30%); */
   position: sticky;
   bottom: 0;
 }
@@ -23506,14 +23506,16 @@ strong {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.8);
-  max-width: 1200px;
   width: 90%;
+  max-width: 1200px;
+  max-height: 80vh;
   background: #fff;
   border-radius: 10px;
   z-index: 1050;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
 }
 
 .custom-modal.show {
@@ -23548,7 +23550,7 @@ strong {
 
 .custom-modal-body {
   padding: 1rem;
-  max-height: 70vh;
+  max-height: calc(80vh - 60px);
   overflow-y: auto;
 }
 
@@ -23565,6 +23567,52 @@ strong {
     opacity: 1;
   }
 }
+
+/* ✅ Responsive Improvements */
+@media (max-width: 768px) {
+  .custom-modal {
+    width: 95%;
+    max-width: 95%;
+    max-height: 90vh;
+  }
+
+  .custom-modal-title {
+    font-size: 1.1rem;
+  }
+
+  .custom-modal-close {
+    font-size: 1.25rem;
+  }
+
+  .custom-modal-body {
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-modal {
+    width: 98%;
+    max-width: 98%;
+    border-radius: 8px;
+  }
+
+  .custom-modal-header {
+    padding: 0.75rem;
+  }
+
+  .custom-modal-body {
+    padding: 0.6rem;
+  }
+
+  .custom-modal-title {
+    font-size: 1rem;
+  }
+
+  .custom-modal-close {
+    font-size: 1.2rem;
+  }
+}
+
 
 .clients-section {
   overflow: hidden;
@@ -23613,17 +23661,20 @@ strong {
 .clients-container {
   position: relative;
   width: 100%;
+  overflow-x: hidden; /* ✅ Prevent horizontal scroll */
 }
 
 .clients-logos {
   display: flex;
-  width: max-content;
+  width: 200%; /* ✅ Enough space to scroll one full copy of logos */
   animation: scrollLeft 30s linear infinite;
+  box-sizing: border-box;
 }
 
 .logo-slide {
   display: flex;
   justify-content: center;
+  width: 100%; /* ✅ Ensure even spacing */
 }
 
 .logo-slide img {
@@ -23631,6 +23682,7 @@ strong {
   height: 100px;
   object-fit: contain;
   margin: 0 20px;
+  flex-shrink: 0;
 }
 
 @keyframes scrollLeft {
@@ -23641,4 +23693,12 @@ strong {
     transform: translateX(-50%);
   }
 }
+@media (max-width: 768px) {
+  .logo-slide img {
+    width: 120px;
+    height: 80px;
+    margin: 0 10px;
+  }
+}
+
 

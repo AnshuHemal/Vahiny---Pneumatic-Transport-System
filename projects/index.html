@@ -212,7 +212,7 @@
                     style="
                       width: 100%;
                       overflow: hidden;
-                      height: 700px;
+                      height: 600px;
                       border-radius: 10px;
                     "
                   ></div>
@@ -224,25 +224,6 @@
           <section class="clients-section" style="margin-top: 00px">
             <div class="clients-container">
               <div class="clients-logos">
-                <!-- Duplicate this set of logos for infinite scroll -->
-                <div class="logo-slide">
-                  <img src="../images/c1.png" alt="Client 1" />
-                  <img src="../images/c2.png" alt="Client 2" />
-                  <img src="../images/c3.png" alt="Client 2" />
-                  <img src="../images/c4.png" alt="Client 3" />
-                  <img src="../images/c5.png" alt="Client 4" />
-                  <img src="../images/c6.png" alt="Client 5" />
-                  <img src="../images/c7.png" alt="Client 5" />
-                  <img src="../images/c8.png" alt="Client 5" />
-                  <img src="../images/c9.png" alt="Client 5" />
-                  <img src="../images/c10.png" alt="Client 5" />
-                  <img src="../images/c11.png" alt="Client 5" />
-                  <img src="../images/c12.png" alt="Client 5" />
-                  <img src="../images/c13.png" alt="Client 5" />
-                  <img src="../images/c14.png" alt="Client 5" />
-                  <img src="../images/c15.png" alt="Client 5" />
-                  <img src="../images/c16.png" alt="Client 5" />
-                </div>
                 <div class="logo-slide">
                   <img src="../images/c1.png" alt="Client 1" />
                   <img src="../images/c2.png" alt="Client 2" />
@@ -933,7 +914,7 @@
       type="text/javascript"
     ></script>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
+    <!-- <script>
       const data = [
         {
           lat: 16.712344378326826,
@@ -1115,6 +1096,87 @@
             });
         });
       });
+    </script> -->
+
+    <script>
+      const files = [
+        "./clients/sample.html",
+        "./clients/sample2.html",
+        "./clients/sample3.html",
+        // Add all your file paths manually here
+      ];
+
+      const map = L.map("map").setView([24.3256322, 76.5825498], 5);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
+
+      const customIcon = L.icon({
+        iconUrl: "../images/marker.png",
+        iconSize: [35, 35],
+        iconAnchor: [15, 50],
+        popupAnchor: [0, -50],
+      });
+
+      const backdrop = document.getElementById("customModalBackdrop");
+      const modal = document.getElementById("customModal");
+      const closeModalBtn = document.getElementById("customModalClose");
+
+      function openModal() {
+        backdrop.style.display = "block";
+        modal.style.display = "block";
+        setTimeout(() => {
+          backdrop.classList.add("show");
+          modal.classList.add("show");
+        }, 10);
+      }
+
+      function closeModal() {
+        backdrop.classList.remove("show");
+        modal.classList.remove("show");
+
+        setTimeout(() => {
+          backdrop.style.display = "none";
+          modal.style.display = "none";
+          document.getElementById("project-details").innerHTML = "";
+          map.invalidateSize();
+        }, 300);
+      }
+
+      closeModalBtn.addEventListener("click", closeModal);
+      backdrop.addEventListener("click", closeModal);
+
+      fetch("./clients/index.json")
+        .then((res) => res.json())
+        .then((files) => {
+          files.forEach((file) => {
+            const filePath = `./clients/${file}`;
+            fetch(filePath)
+              .then((res) => res.text())
+              .then((html) => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, "text/html");
+                const loc = doc.querySelector("loc");
+
+                if (loc) {
+                  const lat = parseFloat(loc.getAttribute("lat"));
+                  const lng = parseFloat(loc.getAttribute("long"));
+
+                  if (!isNaN(lat) && !isNaN(lng)) {
+                    const marker = L.marker([lat, lng], {
+                      icon: customIcon,
+                    }).addTo(map);
+                    marker.on("click", () => {
+                      document.getElementById("project-details").innerHTML =
+                        html;
+                      openModal();
+                    });
+                  }
+                }
+              });
+          });
+        });
     </script>
   </body>
 </html>
