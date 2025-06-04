@@ -5185,8 +5185,8 @@ strong {
 }
 
 .rt-big-blue-box.rt-color-overley {
-  background-image: radial-gradient(circle at 100% 100%, #ff833e40, #fff0 35%),
-    radial-gradient(circle at 10% 23%, #86dafd33, #fff0 27%);
+  /* background-image: radial-gradient(circle at 100% 100%, #ff833e40, #fff0 35%),
+    radial-gradient(circle at 10% 23%, #86dafd33, #fff0 27%); */
 }
 
 .rt-big-blue-box.rt-bg-white {
@@ -16079,7 +16079,7 @@ strong {
   }
 
   .rt-big-blue-box.rt-color-overley {
-    background-image: radial-gradient(circle at 15% 42%, #86dafd33, #fff0 27%);
+    /* background-image: radial-gradient(circle at 15% 42%, #86dafd33, #fff0 27%); */
   }
 
   .rt-business-analytics-heading {
