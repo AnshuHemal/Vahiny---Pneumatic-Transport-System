@@ -3658,8 +3658,8 @@ strong {
 
 .rt-big-container {
   max-width: 1750px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .rt-home-one-banner-content.rt-position-relative {
@@ -6713,7 +6713,7 @@ strong {
   background-color: #fff;
   width: 100%;
   max-width: 410px;
-  padding: 25px 0px;
+  padding: 35px 20px;
 }
 
 .rt-round-icon-two {
