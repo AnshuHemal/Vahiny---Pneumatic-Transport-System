@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://www.vahiny.in/</loc>
+  <lastmod>2018-12-21T12:19:45+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vahiny.in/contact-us.html</loc>
+  <lastmod>2018-12-21T12:36:25+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vahiny.in/industries.html</loc>
+  <lastmod>2018-12-21T12:19:45+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vahiny.in/products.html</loc>
+  <lastmod>2018-12-21T12:36:25+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vahiny.in/service.html</loc>
+  <lastmod>2018-12-21T12:19:45+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vahiny.in/news.html</loc>
+  <lastmod>2018-12-21T12:36:25+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
