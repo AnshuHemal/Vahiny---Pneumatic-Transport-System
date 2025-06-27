@@ -2390,7 +2390,7 @@ ul {
 }
 
 li {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681470cd4f1a5d99faf8811d_Group%201000002052.svg");
+  background-image: url("images/bg_1.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -5939,9 +5939,6 @@ strong {
 
 .rt-business-analytics-contant-block {
   background-color: #070f6b;
-  /* background-image: radial-gradient(circle at 0 10%, #86dafd33, #fff0 36%),
-    radial-gradient(circle at 100% 100%, #ff833e40, #fff0 74%),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fd030e40397f6137e55798_Layer%201.webp"); */
   background-position: 0 0, 0 0, 0 0;
   background-size: auto, auto, cover;
   padding: 133px 60px 153px;
@@ -6810,7 +6807,7 @@ strong {
 
 .rt-working-process-wrapper {
   background-color: #f5b4a2cc;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fce09a7125d1c9bdb4fbe3_section-bg-line.webp");
+  background-image: url("images/bg_2.webp");
   background-position: 0 0;
   background-size: cover;
   justify-content: center;
@@ -6902,7 +6899,7 @@ strong {
 }
 
 .rt-service-hero-section.rt-position-relative.rt-service-hero-v2 {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680b75cc963fef9ac2328418_Service-Two.webp");
+  background-image: url("images/bg_3.webp");
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
@@ -7237,7 +7234,7 @@ strong {
 
 .rt-pricing-item-top-image {
   background-color: #ffe4b9;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680b6c6bbbebdf669b13b5d1_pricing-one.webp");
+  background-image: url("");
   background-position: 0 0;
   background-size: cover;
   border-radius: 15px;
@@ -7249,14 +7246,14 @@ strong {
 
 .rt-pricing-item-top-image.rt-pricing-item-two-image-wrap {
   background-color: #b3edd5;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680b6c6bbbebdf669b13b5d7_pricing-two.webp");
+  background-image: url("");
   background-position: 0 0;
   background-size: cover;
 }
 
 .rt-pricing-item-top-image.rt-pricing-item-three-imsage-wrap {
   background-color: #ffc0b0;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680b6c6bbbebdf669b13b5d4_pricing-three.webp");
+  background-image: url("");
   background-position: 0 0;
   background-size: cover;
 }
@@ -7441,9 +7438,6 @@ strong {
 
 .rt-business-analytics-contant-block-2 {
   background-color: #070f6b;
-  /* background-image: radial-gradient(circle at 0 10%, #86dafd33, #fff0 36%),
-    radial-gradient(circle at 100% 100%, #ff833e40, #fff0 74%),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fd030e40397f6137e55798_Layer%201.webp"); */
   background-position: 0 0, 0 0, 0 0;
   background-size: auto, auto, cover;
   padding: 130px 60px;
@@ -7456,9 +7450,6 @@ strong {
 }
 
 .rt-business-analytics-contant-block-2.rt-bg-change {
-  /* background-image: radial-gradient(circle at 0 10%, #86dafd33, #fff0 36%),
-    radial-gradient(circle at 100% 100%, #ff833e40, #fff0 74%),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fd030e40397f6137e55798_Layer%201.webp"); */
   background-position: 0 0, 0 0, 50%;
   background-size: auto, auto, cover;
 }
@@ -7604,7 +7595,7 @@ strong {
 
 .rt-our-work-content-section {
   background-color: #f5b4a2cc;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fd030e40397f6137e55798_Layer%201.webp");
+  background-image: url("images/bg_4.webp");
   background-position: 0 0;
   background-size: cover;
   padding: 140px 60px;
@@ -8648,7 +8639,7 @@ strong {
 .rt-business-growth-solution-section {
   z-index: 99;
   background-color: #070f6b;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/67fd030e40397f6137e55798_Layer%201.webp");
+  background-image: url("images/bg_4.webp");
   background-position: 0 0;
   background-size: cover;
   padding-top: 133px;
@@ -8724,14 +8715,14 @@ strong {
 }
 
 .rt-contact-v2-hero-section {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680f0e80ff3fd20da9ee0df5_Focused%20Woman%20at%20Desk.webp");
+  background-image: url("");
   background-position: 50%;
   background-size: cover;
   height: 80vh;
 }
 
 .rt-contact-v2-hero-section.rt-position-relative {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681dcd44999cfc75088543a7_Mask%20group%20-%202025-05-09T150821.361.webp");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9046,7 +9037,7 @@ strong {
 
 .rt-contact-v3-hero-section {
   background-image: linear-gradient(#08012399, #fff0 35%),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681dcdb3ccaa4ae948507841_Mask%20group%20-%202025-05-09T151039.093.webp");
+    url("");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -9780,7 +9771,7 @@ strong {
 
 .rt-pricing-v2-banner-section {
   /* background-image: radial-gradient(circle at 71%, #0000 20%, #080123),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680f155eccfb033bc749763e_Pricing%20Three%20Banner.webp"); */
+    url(""); */
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   padding-top: 400px;
@@ -9986,7 +9977,7 @@ strong {
 .rt-pricing-v3-hero-section {
   background-image: linear-gradient(#08012380, #fff0 39%),
     linear-gradient(108deg, #080123, #fff0 77%),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/6822fdef752e3d6e55062452_Mask%20group%20-%202025-05-13T133732.196.webp");
+    url("");
   background-position: 0 0, 0 0, 50%;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
@@ -10278,7 +10269,7 @@ strong {
 }
 
 .blog-v1-hero-section.rt-position-relative {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681d8e0bc4dcb6b35af49334_Mask%20group%20-%202025-05-09T103904.951.webp");
+  background-image: url("");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10530,7 +10521,7 @@ strong {
 }
 
 .rt-blog-v3-hero-section {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680f3ed1677b48b093100ab9_image.webp");
+  background-image: url("");
   background-position: 50%;
   background-size: cover;
   padding-top: 350px;
@@ -10539,7 +10530,7 @@ strong {
 
 .rt-blog-v3-hero-section.rt-position-relative.rt-change-overlay {
   background-image: linear-gradient(90deg, #08012399, #fff0),
-    url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681d85a9c4dcb6b35aef512a_Mask%20group%20-%202025-05-09T100227.056.webp");
+    url("");
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
@@ -11278,7 +11269,7 @@ strong {
 }
 
 .rt-float-block {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/68121252b2c005591a5a74bc_Rectangle%2016535.webp");
+  background-image: url("images/bg_5.webp");
   background-position: 50%;
   background-size: cover;
   width: 300px;
@@ -12205,7 +12196,7 @@ strong {
 }
 
 .customization-container {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/6814aebe2454bd9f8d9514b5_landing%20offer.webp");
+  background-image: url("");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13298,7 +13289,7 @@ strong {
 }
 
 .service-two-process {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681894d63a4a53d8df1b191d_Process%20Background.webp");
+  background-image: url("images/bg_6.webp");
   background-position: 50%;
   background-size: cover;
   padding: 120px 15px 110px;
@@ -14914,7 +14905,7 @@ strong {
 .rt-megamenu-bottom-content-wrapper {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681d1c5497fa71cb290d6b4c_rodeo-project-management-software-ciSEiMxDT4E-unsplash%203.webp");
+  background-image: url("");
   background-position: 50%;
   background-size: cover;
   justify-content: space-between;
@@ -15083,7 +15074,7 @@ strong {
 }
 
 .rt-service-hero {
-  background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/681dcd44999cfc75088543a7_Mask%20group%20-%202025-05-09T150821.361.webp");
+  background-image: url("");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16181,7 +16172,7 @@ strong {
   }
 
   .rt-service-hero-section.rt-position-relative.rt-service-hero-v2 {
-    background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/680b75cc963fef9ac2328418_Service-Two.webp");
+    background-image: url("");
     background-repeat: repeat;
     background-size: cover;
   }
@@ -16299,7 +16290,7 @@ strong {
   }
 
   .rt-banner-position-block-inner-text.rt-position-relative {
-    background-image: url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/6810586c56b443909c4ca554_Vector%201093.webp");
+    background-image: url("images/bg_7.webp");
     background-position: 50%;
     background-size: cover;
     justify-content: flex-end;
@@ -19363,7 +19354,7 @@ strong {
   .rt-pricing-v3-hero-section {
     background-image: linear-gradient(#08012380, #fff0 39%),
       linear-gradient(0deg, #080123, #fff0 85%),
-      url("https://cdn.prod.website-files.com/67bd9a81ed499e586a4f3ed2/6822fdef752e3d6e55062452_Mask%20group%20-%202025-05-13T133732.196.webp");
+      url("");
     background-position: 0 0, 0 0, 50%;
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
