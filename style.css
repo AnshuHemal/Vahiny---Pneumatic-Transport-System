@@ -3657,7 +3657,7 @@ strong {
 }
 
 .rt-big-container {
-  max-width: 1450px;
+  max-width: 100%;
   /* padding-left: 15px; */
   padding-right: 10px;
 }
