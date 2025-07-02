@@ -7,14 +7,15 @@
   <head>
     <meta charset="utf-8" />
     <title>
-      Contact - Vahiny Pneumatic Transport System | Pneumatic Tube System
+      Contact - Vahiny Pneumatic Transport System | Transporting Your Growth
+      With Vahiny
     </title>
     <meta
       content="Vahiny is an innovative Indian company revolutionizing internal logistics with cutting-edge pneumatic transport systems (PTS). Our seamless solutions modernize and streamline intra-industrial transportation, boosting efficiency and enhancing workflows. Experience smarter, faster, and more reliable logistics with Vahiny."
       name="description"
     />
     <meta
-      content="Vahiny - Pneumatic Transport System | Chute System Services"
+      content="Vahiny - Pneumatic Transport System | Transporting Your Growth With Vahiny"
       property="og:title"
     />
     <meta
@@ -22,7 +23,7 @@
       property="og:description"
     />
     <meta
-      content="Vahiny - Pneumatic Transport System | Chute System Services"
+      content="Vahiny - Pneumatic Transport System | Transporting Your Growth With Vahiny"
       property="twitter:title"
     />
     <meta
@@ -33,9 +34,14 @@
     <meta content="summary_large_image" name="twitter:card" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta
-      content="Vahiny - Pneumatic Transport System | Chute System Services"
+      content="Vahiny - Pneumatic Transport System | Transporting Your Growth With Vahiny"
       name="generator"
     />
+    <meta
+      name="keywords"
+      content="Vahiny Pneumatic Transport System, Vahiny, Pneumatic Tube System, Shoot System Services, Pneumatic Transport System"
+    />
+    <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="../style.css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link
@@ -326,11 +332,11 @@
                 id="email-form"
                 name="email-form"
                 data-name="Email Form"
-                method="get"
+                method="post"
+                action="email.php"
                 class="rt-form"
                 data-wf-page-id="680f0e205d86ed53e7786a79"
                 data-wf-element-id="ec5076f5-82da-441c-df16-c05e321c9ef8"
-                data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"
               >
                 <input
                   class="rt-form-input w-input"
@@ -340,7 +346,9 @@
                   placeholder="Full Name"
                   type="text"
                   id="name"
-                /><input
+                  required
+                />
+                <input
                   class="rt-form-input w-input"
                   maxlength="256"
                   name="email"
@@ -348,23 +356,28 @@
                   placeholder="Your Email Address"
                   type="email"
                   id="email"
-                /><input
+                  required
+                />
+                <!-- <input
                   class="rt-form-input w-input"
                   maxlength="256"
-                  name="email-2"
-                  data-name="Email 2"
+                  name="phone"
+                  data-name="Phone"
                   placeholder="Phone Number"
-                  type="email"
-                  id="email-2"
-                  required=""
-                /><textarea
+                  type="text"
+                  id="phone"
+                  required
+                /> -->
+                <textarea
                   id="field-2"
-                  name="field-2"
+                  name="message"
                   maxlength="5000"
                   data-name="Field 2"
                   placeholder="Your Message"
                   class="rt-form-text-area w-input"
+                  required
                 ></textarea>
+
                 <div
                   data-w-id="ec5076f5-82da-441c-df16-c05e321c9efd"
                   class="rt-position-relative"
@@ -387,15 +400,12 @@
                       >
                         Send message
                       </div>
-                      <div
-                        class="rt-button-text rt-button-text-two rt-width-full rt-text-align-center"
-                      >
-                        Send message
-                      </div>
                     </div>
                   </div>
                 </div>
               </form>
+
+              <!-- Success and Error Messages -->
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
@@ -573,5 +583,7 @@
     <script src="../script.js" type="text/javascript"></script>
     <script src="../script1.js" type="text/javascript"></script>
     <script src="../script2.js" type="text/javascript"></script>
+    <!-- Add this script tag to load the ReCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </body>
 </html>
