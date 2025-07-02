@@ -6671,6 +6671,7 @@ strong {
 }
 
 .rt-service-description-wrapper {
+  height: 250px;
   min-height: 200px;
   max-height: 350px;
   max-width: 336px;
